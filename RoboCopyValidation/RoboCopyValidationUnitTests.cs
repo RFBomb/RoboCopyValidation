@@ -9,7 +9,7 @@ using System.Collections.Generic;
 namespace RoboCopyValidation
 {
     [TestClass]
-    public class UnitTest1
+    public class RoboCopyValidationUnitTests
     {
         static RoboSharpConfiguration Configuration { get; } = new RoboSharpConfiguration();
         string RoboCopyPath => Configuration.RoboCopyExe;
